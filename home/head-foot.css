@@ -1,0 +1,139 @@
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .navbar_main{
+            background-color: white;
+            border: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+        }
+        #navbar_logo{
+            width: 70px;
+            margin-top: -18px;
+        }
+        #navbar_part1{
+            width: 40%;
+            color: rgb(104, 103, 103);
+            margin-left: -100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar_part1 a{
+            text-decoration: none;
+            color: rgb(104, 103, 103);
+            
+        }
+        #navbar_part2{
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar_btn1{
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(29, 197, 7);
+            color: rgb(29, 197, 7);
+        }
+        #whatsapp_l{
+            height: 20px;
+        }
+        #navbar_btn2{
+            border: 2px solid rgb(0, 195, 255);
+            color: rgb(0, 195, 255);
+        }
+        #navbar_btn2 a{
+            text-decoration: none;
+            color: rgb(0, 195, 255);
+        }
+        #navbar_btn1,#navbar_btn2{  
+            height:35px;
+            border-radius: 5px;
+            background-color: white;
+            padding: 0px 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        #navbar_part2 >p a{
+            color: rgb(104, 103, 103);
+            text-decoration: none;
+        }
+
+
+
+
+        .footerbody{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .footer_box{
+            background-color: #244949;
+            padding-left: 8%;
+            padding-right: 8%;
+            height: 600px;
+        }
+        .ft_box{
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        .img_box{
+            width: 300px;
+        }
+        .img{
+            width: 80px;
+        }
+        .b_logo{
+            margin: 3px;
+            width: 35px;
+        }
+        li{
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+        }
+        .bottom_head{
+            margin-bottom: 20px;
+            font-weight: bolder;
+            font-size: 23px;
+        }
+        .b_query{
+            font-weight: bolder;
+            font-size: 18px;
+            color: white;
+            margin-bottom: 2px;
+        }
+        .million{
+            color: white;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .followers{
+            font-size: 15px;
+            color: rgb(185, 185, 185);
+            margin-top: 10px;
+            margin-bottom: 70px;
+        }
+        .visa{
+            width: 450px;
+            display: block;
+            margin-left: 600px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .copyright{
+            color: aliceblue;
+            text-align: center;
+            margin-top: 10px;
+        } 
+    
