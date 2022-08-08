@@ -1200,3 +1200,9 @@ h2{
 mt-20{
     margin-top: 20px;
 }
+
+
+#PaymentAnchor{
+    color: white;
+    text-decoration: none;
+}

@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="home/carousel.css">
     <script src="https://kit.fontawesome.com/080f947021.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home/head-foot.css">
+    <style>
+        #PaymentAnchor a{
+    color: white !important;
+    text-decoration: none !important;
+}
+    </style>
+
 </head>
 <body>
    
@@ -53,7 +60,7 @@
         </a>
         <div id="navbar_part1">
             <p><a href="./browse-fundriser/browse.html">Browse Fundaisers</a></p>
-            <p><a href="#">Fundraise For</a></p>
+            <p><a href="./nav/crowdfunding.html">Fundraise For</a></p>
             <p><a href="./hiw/hiw.html">How It Works</a></p>
             <p>|</p>
             <p><a href="./nav/navSearch.html">Search</a></p>
@@ -64,7 +71,7 @@
                 Chat
             </button>
             <button id="navbar_btn2"><a href="./nav/crowdfunding.html">Start a Fundraiser</a></button>
-            <p><a href="./signup/login.html">Sign in</a></p>
+            <p><a href="./signup/log.html">Sign in</a></p>
         </div>
         
     </div>
@@ -100,8 +107,8 @@
                         </div>
                     </div>
                     <div>
-                        <button onclick="startfundRaiserMethod()"  class=" start-fundraiser green-color-back font-color_3">
-                            <span class="font-style">Start a Fundraiser for FREE</span>
+                        <button class=" start-fundraiser green-color-back font-color_3">
+                            <span class="font-style" id="PaymentAnchor"><a  href="./payment/payment.html">Start a Fundraiser for FREE</a></span>
                         </button>
                     </div>
                 </div>
@@ -116,7 +123,7 @@
                 <h2 class="font-style font-color_1">Start Monthly Donation to Save Lives</h2>
                 <p class="font-style font-color_2 font-weight">With your support, countless children will receive health care and a happy life. Start your monthly donation today.</p>
                 <span  class="donateNowArrow donate-btn font-style float-right font-weight-700">
-                    DONATE NOW
+                    <a href="./payment/payment.html" style="color:white;text-decoration:none;">DONATE NOW</a>
                     <em class="material-icons">
                         arrow_forward_ios
                     </em>

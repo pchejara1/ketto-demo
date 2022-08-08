@@ -46,7 +46,7 @@
             <input class="pay_customer" type="text" placeholder="Enter Bank Name"> <br>
             <input class="pay_customer" type="number" placeholder="Enter Account Number"><br>
             <input class="pay_customer" type="text" placeholder="Enter IFSC Code"><br>
-            <button class="pay_pledge" onclick="payment_done()">Pledge ₹500 / Month</button>
+            <input type="submit" class="pay_pledge" id="pledgeBtn" onclick="payment_done()" value="Pledge ₹500 / Month" />
             <!-- <p class="pay_doners">1,49,585 donors are giving monthly</p> -->
         </form>
         <p class="pay_terms"><b>Note:</b> This Account will be linked to a monthly subscription and future payments will be charged automatically. On clicking the 'Pledge' button you will be redirected to the NPCI platform.
@@ -57,9 +57,13 @@
 </body>
 </html>
 <script>
-    document.querySelector(".pay_pledge").addEventListener("click",payment_done);
+    // document.querySelector(".pay_pledge").addEventListener("click",payment_done);
+    document.getElementById("pledgeBtn").addEventListener("submit", payment_done);
     function payment_done(){
+        event.preventDefault();
+        // document.getElementById("pledgeBtn").innerText = "";
         alert("Payment Done Successfully !");
-        window.location.href="../home/index.html";
+        window.location.href = "../home/index.html"
+        // window.location.href="../home/index.html";
     }
 </script>
